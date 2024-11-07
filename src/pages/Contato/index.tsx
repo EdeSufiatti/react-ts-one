@@ -1,6 +1,6 @@
-import "./App.css";
+import "./styles.css";
 
-function App() {
+function contato() {
     return (
         <div id="container">
             <nav id="menu">
@@ -24,4 +24,4 @@ function App() {
     );
 }
 
-export default App;
+export default contato;
