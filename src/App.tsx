@@ -1,24 +1,10 @@
 import "./App.css";
+import NavBar from "./components/NavBar";
 
 function App() {
     return (
         <div id="container">
-            <nav id="menu">
-                <ul>
-                    <li>
-                        <a href="./index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="./index.html">Receitas</a>
-                    </li>
-                    <li>
-                        <a href="#">Sobre</a>
-                    </li>
-                    <li>
-                        <a href="./contato/contato.html">Contato</a>
-                    </li>
-                </ul>
-            </nav>
+            <NavBar/>
             <div id="content"></div>
         </div>
     );
