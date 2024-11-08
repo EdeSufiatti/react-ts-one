@@ -5,16 +5,16 @@ export default function NavBar() {
         <nav id="menu">
             <ul>
                 <li>
-                    <a href="./index.html">Home</a>
+                    <a href="/">Home</a>
                 </li>
                 <li>
-                    <a href="./index.html">Receitas</a>
+                    <a href="/receitas">Receitas</a>
                 </li>
                 <li>
-                    <a href="#">Sobre</a>
+                    <a href="/sobre">Sobre</a>
                 </li>
                 <li>
-                    <a href="./contato/contato.html">Contato</a>
+                    <a href="/contato">Contato</a>
                 </li>
             </ul>
         </nav>
